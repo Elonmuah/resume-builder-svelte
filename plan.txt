@@ -1,0 +1,146 @@
+🗓️ Two-Week Day-to-Day Plan
+Week 1 – Build MVP Core
+
+Day 1: Project Setup & Layout Planning
+
+--- Set up VS Code, Node.js, and GitHub repo
+
+--- Initialize React project (Create React App or Vite)
+
+--- Install Tailwind CSS + optional component library (DaisyUI / Shadcn/UI)
+
+Sketch homepage & resume builder page layout (wireframe)
+
+List resume fields for the form (personal info, education, experience, skills)
+
+Day 2: Homepage & Navigation
+
+Build homepage layout: hero section, CTA button, feature highlights
+
+Add header/navigation (logo, “Create Resume,” login/signup)
+
+Add footer (privacy, contact, placeholder links)
+
+Make page mobile-responsive
+
+Day 3: Resume Form Structure
+
+Create resume form page
+
+Sections: Personal Info, Education, Work Experience, Skills
+
+Use React forms with state
+
+Add form validation (required fields, basic email/phone format)
+
+Ensure sections can expand/collapse for clarity
+
+Day 4: PDF Generation MVP
+
+Integrate jsPDF + html2canvas
+
+Map form fields to a basic PDF template
+
+Test PDF generation → download file
+
+Make sure the PDF is flattened and non-editable
+
+Day 5: Styling Resume & Form
+
+Style resume template in PDF (fonts, spacing, headers)
+
+Style form input fields and layout with Tailwind/DaisyUI
+
+Test responsive design on desktop + mobile
+
+Add placeholder for ads on resume page
+
+Day 6: Optional Extra Templates
+
+Add 1–2 more simple templates for free users
+
+Add template selection UI
+
+Test PDF generation for each template
+
+Minor layout polish
+
+Day 7: Internal Testing
+
+Test end-to-end:
+
+Fill form → generate PDF → download
+
+Switch templates → generate PDF
+
+Mobile/desktop view
+
+Fix any styling or PDF issues
+
+Week 2 – Deployment, Authentication, and Free Tier Polish
+
+Day 8: Firebase Setup
+
+Set up Firebase project
+
+Enable Firestore database (if planning to save resumes later)
+
+Enable Firebase Auth (email/password login)
+
+Add Firebase SDK to React project
+
+Day 9: Login/Signup Pages
+
+Build login & signup pages
+
+Connect Firebase Auth
+
+Test creating account and logging in
+
+Day 10: Optional Save & Edit MVP (Premium Feature)
+
+Create dashboard page (list saved resumes)
+
+Add “save resume” function → store JSON in Firestore
+
+Implement “load resume” to populate form for editing
+
+Day 11: Ads & Monetization
+
+Add Google AdSense placeholders
+
+Ensure ad areas are non-intrusive and mobile-friendly
+
+Test free PDF generation workflow with ads visible
+
+Day 12: Polish & UX Improvements
+
+Fix responsiveness issues
+
+Add loading states when generating PDFs
+
+Ensure buttons, fonts, spacing, colors are consistent
+
+Add favicon and meta tags
+
+Day 13: Testing & Bug Fixes
+
+Test all major flows:
+
+Free user: generate PDF
+
+Logged-in user: save → edit → download
+
+Fix any UI/UX bugs
+
+Check PDF formatting on multiple devices
+
+Day 14: Deployment & Launch
+
+Deploy frontend to Vercel
+
+Connect backend or Firebase (if using database)
+
+Test live site: PDF generation, templates, ads, login
+
+Share with friends or small communities for first feedback
