@@ -18,9 +18,9 @@
   export let title = "Resume Builder";
 </script>
 
-<nav class="absolute inset-x-0 top-0 h-16">
-  <div class="flex flex-wrap h-full">
-    <div class="w-1/2 bg-gray-300 flex items-center justify-center">
+<nav class="absolute inset-x-0 top-0 h-vh">
+  <div class="flex flex-wrap h-full bg-gradient-to-bl from-blue-800 via-slate-950 to-blue-500">
+    <div class="w-1/2 flex items-center justify-center">
       <h1
         bind:this={h1Ref}
         class="font-bold text-center"
@@ -29,9 +29,9 @@
         {title}
       </h1>
     </div>
-    <div class="w-1/4 bg-gray-400 flex items-center justify-center">
+    <div class="w-1/4 flex items-center justify-center">
     </div>
-    <div class="w-1/4 bg-gray-500 flex items-center justify-center">
+    <div class="w-1/4 flex items-center justify-center">
       <NavActions />
     </div>
   </div>

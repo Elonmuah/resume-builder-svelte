@@ -15,13 +15,13 @@ List resume fields for the form (personal info, education, experience, skills)
 
 Day 2: Homepage & Navigation
 
-Build homepage layout: hero section, CTA button, feature highlights
+(---) Build homepage layout: hero section, CTA button, feature highlights
 
-Add header/navigation (logo, “Create Resume,” login/signup)
+--- Add header/navigation (logo, “Create Resume,” login/signup)
 
-Add footer (privacy, contact, placeholder links)
+--- Add footer (privacy, contact, placeholder links) ---
 
-Make page mobile-responsive
+(---) Make page mobile-responsive
 
 Day 3: Resume Form Structure
 

@@ -29,16 +29,16 @@
 
     {#if menuOpen}
       <ul class="absolute top-16 right-0 flex flex-col p-4 mt-2 bg-white shadow-lg rounded-lg gap-2 w-40">
-        <li><button class="w-full text-left px-2 py-1 bg-gray-200 rounded" on:click={()=>console.log('Login')}>Log in</button></li>
-        <li><button class="w-full text-left px-2 py-1 bg-gray-200 rounded" on:click={()=>console.log('Signup')}>Sign up</button></li>
+        <li><button class="w-full text-left px-2 py-1 bg-gray-100 rounded text-gray-700" on:click={()=>console.log('Login')}>Log in</button></li>
+        <li><button class="w-full text-left px-2 py-1 bg-gray-100 rounded text-gray-700" on:click={()=>console.log('Signup')}>Sign up</button></li>
         <li><button class="w-full text-left px-2 py-1 bg-indigo-600 text-white rounded" on:click={()=>console.log('Premium')}>Go Premium</button></li>
       </ul>
     {/if}
   {:else}
     <!-- Regular buttons -->
     <div class="flex gap-2">
-      <button class="px-4 py-2 bg-gray-200 rounded" on:click={()=>console.log('Login')}>Log in</button>
-      <button class="px-4 py-2 bg-gray-200 rounded" on:click={()=>console.log('Signup')}>Sign up</button>
+      <button class="px-4 py-2 bg-gray-100 rounded text-gray-700" on:click={()=>console.log('Login')}>Log in</button>
+      <button class="px-4 py-2 bg-gray-100 rounded text-gray-700" on:click={()=>console.log('Signup')}>Sign up</button>
       <button class="px-4 py-2 bg-indigo-600 text-white rounded" on:click={()=>console.log('Premium')}>Go Premium</button>
     </div>
   {/if}
