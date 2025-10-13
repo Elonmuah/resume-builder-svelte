@@ -54,8 +54,11 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (max-width: 581px) {
+@media (max-width: 1220px) {
   #wrapit {
-    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #mainBlock {
+    padding-top: 250px;
   }
 }

@@ -18,8 +18,8 @@
   export let title = "Resume Builder";
 </script>
 
-<nav class="absolute inset-x-0 top-0 h-vh">
-  <div class="flex flex-wrap h-full bg-gradient-to-bl from-blue-800 via-slate-950 to-blue-500">
+<nav class="absolute inset-x-0 top-0 h-vh bg-blue-500/30">
+  <div class="flex flex-wrap h-full">
     <div class="w-1/2 flex items-center justify-center">
       <h1
         bind:this={h1Ref}
@@ -35,4 +35,5 @@
       <NavActions />
     </div>
   </div>
+  <hr class="border-t-2 border-sky-300">
 </nav>
