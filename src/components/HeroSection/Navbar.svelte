@@ -14,20 +14,17 @@
     window.addEventListener("resize", resize);
     return () => window.removeEventListener("resize", resize);
   });
-
-  export let title = "Resume Builder";
 </script>
 
-<nav class="absolute inset-x-0 top-0 h-vh bg-blue-500/30">
+<nav class="inset-x-0 top-0 h-vh bg-blue-500/30">
   <div class="flex flex-wrap h-full">
     <div class="w-1/2 flex items-center justify-center">
+      
       <h1
         bind:this={h1Ref}
         class="font-bold text-center"
         style="font-size: {fontSize}px; line-height: 1;"
-      >
-        {title}
-      </h1>
+      >SwiftFormat</h1>
     </div>
     <div class="w-1/4 flex items-center justify-center">
     </div>
